@@ -1,4 +1,2 @@
-INSERT INTO ROrder (FIRST_NAME,LAST_NAME,ORDER_NAME) values ('Emad','Ashour','Pizza'),
-('mohamad','rami','meat'),
-('ahmad','jamal','chicken'),
-('yousef','thaer','rice');
+INSERT INTO `restaurants` (`id`, `NAME`, `LOCTION`, `FACEBOOK_PAGE`, `PHONE`, `TYPE`) VALUES ('0', 'kfc', 'ramallah', 'fb', '05', 'ch');
+INSERT INTO `orders` (`id`, `restaurant_id`, `date`, `created_by`, `active`) VALUES ('0', '0', '2020-12-12', 'me', '1');
